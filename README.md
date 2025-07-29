@@ -1,0 +1,22 @@
+# VK CO FF EE Encryption/Decryption Service
+
+A lightweight Go web server that provides a simple web interface to encrypt and decrypt text using the “VK CO FF EE” cipher algorithm (as seen in the VK Coffee app)
+
+## Features
+
+- Encrypt plain text → `VK CO FF EE … VK CO FF EE` cipher
+- Decrypt cipher text → original plain text
+- Support for custom key (derivation via AES-ECB + “pepper”)
+
+## Prerequisites
+
+- Go 1.18+ 
+
+## Installation & Run
+
+```bash
+git clone https://github.com/yourusername/vkcoffee-go.git
+cd vkcoffee-go
+go mod tidy
+go run main.go
+```
