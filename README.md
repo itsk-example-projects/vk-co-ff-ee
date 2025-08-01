@@ -15,8 +15,8 @@ A lightweight Go web server that provides a simple web interface to encrypt and 
 ## Installation & Run
 
 ```bash
-git clone https://github.com/yourusername/vkcoffee-go.git
-cd vkcoffee-go
+git clone https://github.com/itsk-example-projects/vk-co-ff-ee.git
+cd vk-co-ff-ee
 go mod tidy
-go run main.go
+go run cmd/main.go
 ```
