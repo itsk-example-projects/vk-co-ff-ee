@@ -2,6 +2,8 @@
 
 A lightweight Go web server that provides a simple web interface to encrypt and decrypt text using the “VK CO FF EE” cipher algorithm (as seen in the VK Coffee app)
 
+[vk-co-ff-ee.itskoshkin.site](https://vk-co-ff-ee.itskoshkin.site)
+
 ## Features
 
 - Encrypt plain text → `VK CO FF EE … VK CO FF EE` cipher
