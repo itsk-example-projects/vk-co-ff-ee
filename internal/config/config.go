@@ -14,6 +14,7 @@ func LoadConfig() {
 }
 
 const (
+	Port    = "port"
 	BaseKey = "base_key"
 	KDFSalt = "kdf_salt"
 )

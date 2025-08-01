@@ -1,2 +1,3 @@
+port: ":8081"
 base_key: "stupidUsersMustD" # Hope I'm not dumb and correctly deobfuscated the key
 kdf_salt: "mailRuMustDie" # Salt for KDF, used to derive keys from base_key
