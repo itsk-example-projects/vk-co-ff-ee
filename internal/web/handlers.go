@@ -10,6 +10,7 @@ import (
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 	data := pageData{}
 	if r.Method == http.MethodPost {
+		r.Body = http.MaxBytesReader(w, r.Body, 1<<20) // 1 MiB
 		err := r.ParseForm()
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
