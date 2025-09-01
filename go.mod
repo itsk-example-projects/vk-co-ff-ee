@@ -1,6 +1,6 @@
 module vk-co-ff-ee
 
-go 1.22.5
+go 1.23.0
 
 require github.com/spf13/viper v1.20.1
 
